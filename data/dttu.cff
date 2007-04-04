@@ -3,6 +3,13 @@ PSet TUParameters = {
 	include "L1Trigger/DTTraco/data/dttraco.cff"
 	include "L1Trigger/DTTriggerServerTheta/data/dttstheta.cff"
 	include "L1Trigger/DTTriggerServerPhi/data/dttsphi.cff"
-	#Debug flag
+
+	# Debug flag
 	untracked bool Debug = false
+
+        # MiniCrate digi offset in tdc units
+        int32 DIGIOFFSET = 500	
+
+	# MiniCrate setup time : fine syncronization
+  	int32 SINCROTIME = 0		 
 }
