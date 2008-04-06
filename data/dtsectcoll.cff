@@ -1,3 +1,5 @@
+block SectCollParametersBlock = {
+
 PSet SectCollParameters = {
 
 	# Debug falg
@@ -31,4 +33,6 @@ PSet SectCollParameters = {
 	int32 SCCSP5	= 0	#[0-7]
 	
 	
+}
+
 }
